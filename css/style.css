@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: "Arial";
+    background-color: #8dc63f;
+    cursor: url(../img/foot-w.cur), auto;
+}
+
+.logotip img:hover {
+    cursor: url(../img/foot\ -n.cur), auto;
+}
+
+.main-box {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 960px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.logotip {
+    display: flex;
+}
+
+.logotip p {
+    margin: 0;
+    color: #39930d;
+    font-size: 22px;
+}
+
+.logotip b {
+    display: block;
+    font-size: 44px;
+}
+
+.logotip i {
+    color: #5a5a5a;
+    font-size: 14px;
+}
+
+.logotip img {
+    margin-left: 34px;
+    transition: all 1s ease;
+}
+
+.logotip img:hover {
+    padding-left: 300px; 
+}
+
+.number a {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #39930d;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.number i {
+    display: block;
+    color: #5a5a5a;
+    font-size: 14px;
+    text-align: right;
+}
+
+.picture {
+    width: 100%;
+    
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 45px;
+}
+
+.text {
+    max-width: 600px;
+}
+
+.text h1 {
+    color: #39930d;  
+    font-size: 24px;
+}
+
+.text p {
+    color: #343434;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.partners {
+    max-width: 300px;
+    width: 100%;
+}
+
+.partners p {
+    padding: 15px 20px 10px;
+    color: #fff;
+    font-size: 18px;
+    background-color: #39930d;
+}
+
+.partners ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.partners a {
+    display: block;
+    padding: 8px 0px;
+    color: #39930d;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: all 1s ease;
+}
+
+.partners a:hover {
+    padding: 8px 0 8px 20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #5a5a5a;
+}
+
+.copyright {
+    margin: 0 -15px;
+    padding: 17px 15px 15px;
+    color: #fff;
+    font-size: 14px;
+    background-color: #39930d;
+}
